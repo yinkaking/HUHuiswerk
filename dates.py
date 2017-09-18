@@ -4,7 +4,6 @@ has31Days = True
 
 class Month(object):
 	def __init__(self, arg, arg2):
-		super(Month, self).__init__()
 		self.name = arg
 		self.numberOfDays = arg2
 	def __str__(self):
